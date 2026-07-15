@@ -1,0 +1,42 @@
+﻿Shape: (10000, 14)
+Columns: ['udi', 'id_produto', 'tipo', 'temperatura_ar_k', 'temperatura_processo_k', 'velocidade_rotacao_rpm', 'torque_nm', 'desgaste_ferramenta_min', 'falha_maquina', 'falha_twf', 'falha_hdf', 'falha_pwf', 'falha_osf', 'falha_rnf']
+
+Nulls:
+udi                          0
+id_produto                   0
+tipo                         0
+temperatura_ar_k           500
+temperatura_processo_k     500
+velocidade_rotacao_rpm     500
+torque_nm                  500
+desgaste_ferramenta_min      0
+falha_maquina                0
+falha_twf                    0
+falha_hdf                    0
+falha_pwf                    0
+falha_osf                    0
+falha_rnf                    0
+dtype: int64
+
+falha_maquina:
+falha_maquina
+0    9661
+1     339
+Name: count, dtype: int64
+
+Duplicates: 0
+
+tipo: {'L': 6000, 'M': 2997, 'H': 1003}
+
+Describe:
+               udi  temperatura_ar_k  ...     falha_osf    falha_rnf
+count  10000.00000       9500.000000  ...  10000.000000  10000.00000
+mean    5000.50000        300.002158  ...      0.009800      0.00190
+std     2886.89568          2.001689  ...      0.098514      0.04355
+min        1.00000        295.300000  ...      0.000000      0.00000
+25%     2500.75000        298.300000  ...      0.000000      0.00000
+50%     5000.50000        300.100000  ...      0.000000      0.00000
+75%     7500.25000        301.500000  ...      0.000000      0.00000
+max    10000.00000        304.500000  ...      1.000000      1.00000
+
+[8 rows x 12 columns]
