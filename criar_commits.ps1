@@ -90,5 +90,6 @@ Write-Host "Proximo passo: crie o repositorio no GitHub e execute:" -ForegroundC
 Write-Host "  git branch develop"
 Write-Host "  git branch feat/pipeline-dados"
 Write-Host "  git branch docs/readme"
-Write-Host "  git remote add origin https://github.com/SEU_USUARIO/salesinsight-py.git"
+Write-Host "  git remote add origin https://github.com/ludmila0922/salesinsight-py.git"
 Write-Host "  git push -u origin main"
+
