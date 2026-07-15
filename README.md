@@ -131,3 +131,4 @@ Enviar até **20/07/2026, 22h**:
 ## Autor
 
 Projeto avaliativo – Módulo 1 (Ciência de Dados / Machine Learning).
+
